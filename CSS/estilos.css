@@ -1,0 +1,39 @@
+body {
+  background-image: url('https://image.freepik.com/fotos-gratis/fundo-de-tela-de-tintura-sem-emenda-padrao-de-resumo-de-indigo-azul-escuro_3236-1808.jpg');
+  background-size: 100vw auto;
+  font-family: verdana;
+  height: 100vh;
+}
+
+.menu{
+  background-color: white;
+}
+
+.menu ul{
+  display: flex;
+  justify-content: space-around;
+}
+
+.menu li{
+  list-style: none; 
+}
+
+a{
+  text-decoration: none;
+  color: teal;
+}
+
+a:hover{
+  text-decoration: underline;
+}
+
+
+.site-subtitle,
+.site-title{
+  text-align: center;
+  color: whitesmoke;
+}
+
+.site-subtitle{
+  font-style: italic;
+}
